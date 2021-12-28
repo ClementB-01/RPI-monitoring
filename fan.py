@@ -3,7 +3,7 @@ import sys
 import time
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(12, GPIO.out)
+GPIO.setup(12, GPIO.OUT)
 
 while True:
     var = input()
